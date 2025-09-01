@@ -99,7 +99,7 @@
                 fetch(gasUrl, {
                     method: 'POST',
                     body: JSON.stringify(postData),
-                    headers: { 'Content-Type': 'application/json' },
+                    headers: { 'Content-Type': 'text/plain' },
                 })
                 .then(response => response.json())
                 .then(data => {
@@ -131,3 +131,4 @@
 </body>
 
 </html>
+
